@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="Libs/bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .img {
+    
+    width: 160px;
+    height: 230px;
+    
+    }
+    
+    h1{
+    color: rgb(221, 162, 155);
+    }
+    
+    body{
+    background-color:bisque;
+    }
+    #Titulo {
+    background-color: saddlebrown;
+    }
+    .parrafo{
+    background-color: gainsboro;
+    }
+    .parrafo{
+    font-size: 1.1em;
+    }
+    .subtemas{
+    background-color: sienna;
+    }
+    #Subtemas {
+    background-color: sienna;
+    }
+    .textos {
+    font-size: 1.1em;
+    }
+    #Eslogan{
+    font-size: 1.5em;
+    }
+    .subtemas {
+    font-size: 1.6em;
+    }
+    .parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .textos {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .subtemas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Titulo {
+    font-size: 2.1em;
+    }
+    #Titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    #Lista {
+    font-size: 1.1em;
+    }
+    #Subtemas {
+    font-size: 1.6em;
+    }
+    #Subtemas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .subtitulo {
+    font-size: 1.4em;
+    }
+    h2{
+    color: brown;
+    }
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    th, td {
+    padding: 5px;
+    }
+    tr:nth-of-type(1) > th{
+    background-color: sienna;
+    }
+    header{
+    width: 100%;
+    background-size: cover;
+    background-position: center;    
+    }
+    .nav{
+    position: fixed;
+    width: 95%;
+    background: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    }
+    .nav.active{
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    }
+    .nav.active .Logo,
+    .nav.active .menu a{
+    color: brown;
+    }
+    .Logo{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    background-color: bisque;
+    
+    }
+    .menu{
+    display: flex;
+    }
+    .menu li{
+    list-style: none;
+    margin: 10px;
+    }
+    .menu li a{
+    color: lightsalmon;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    }
+    .menu li a:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color: peru;
+    border-radius: 15px;
+    
+    }
+    .scrol{
+    height: 100px;
+    }
+    .img{
+        width: 180px;
+        height: 230px;
+    }
+    div div p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1em;
+    }
+    button{
+        background: #AE445A;
+        color: #FF9B82;
+    }
+    button:hover{
+        background: #662549;
+    }
+    button:active{
+        background: #F39F5A;
+    }
+    /* Agrega este código CSS para el modelo de caja de contacto */
+    .contacto-box {
+        background-color: lightgray;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .contacto-box form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto-box label {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .contacto-box input,
+    .contacto-box textarea {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .contacto-box button {
+        background-color: #AE445A;
+        color: #FF9B82;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .contacto-box button:hover {
+        background-color: #662549;
+    }
+    
+    .contacto-box button:active {
+        background-color: #F39F5A;
+    }
+    </style>
+  </head>
+  <body>
+    <header> 
+        <nav class="nav">
+        <div class="Logo">Music</div>
+        <ul class="menu">
+            <li><a href="#Subtemas">Inicio</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+            <li><a href="#Acerca de">Acerca de</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="scrol">
+
+</div>
+<script src="menu.js"></script>
+    <h1 id="Titulo">
+        Hablemos un poco acerca de lo que es la musica en general.
+    </h1>
+    <h1 id="Eslogan">"Armonizando emociones, una nota a la vez: ¡La magia de la música en tu vida!"</h1>
+
+     <a href="https://concepto.de/musica/">Dale click aqui</a> para saber mas acerca de este tema.
+     <h1 id="Subtemas"> Subtemas: </h1> 
+     <ul>
+        <li>¿Que es la musica?</li>
+        <li>¿Que tipos de musica o generos existen?</li>
+        <li>Historia de la musica</li>
+        <li>¿Que emociones puede transmitir la musica en nosotros?</li>
+     </ul>
+    <section>
+        
+        <h1 class="subtemas"> ¿Que es la musica? </h1>
+        <article>
+            
+                <p class="textos">La <em>música</em>, en su esencia más profunda, es el lenguaje universal que trasciende las barreras del tiempo y la cultura. Es la manifestación artística y emocional de la humanidad, tejida con melodías, ritmos y armonías que capturan la diversidad de experiencias humanas. A través de sus notas, la música tiene el poder de evocar emociones intensas, transportarnos a recuerdos pasados y pintar paisajes sonoros que reflejan el <strong>estado del alma</strong>. Desde los primeros latidos rítmicos que percibimos en el útero materno, hasta las sinfonías majestuosas que nos elevan a lo sublime, la música nos conecta con nuestra propia esencia y con los demás, tejiendo un hilo invisible pero fuerte que une corazones y mentes en una danza auditiva que trasciende palabras y fronteras.</p>
+            
+        </article>
+        <div>
+            <img src="Imagenes/Musica.jpeg" class="img" alt="">
+            <div>
+                <p> La música es un arte que se ha desarrollado a lo largo de milenios y ha evolucionado en respuesta a las culturas y las tecnologías cambiantes. A través de la historia, se ha utilizado con diversos propósitos, desde rituales religiosos y celebraciones sociales hasta expresiones políticas y protestas. La música puede ser instrumental, vocal o una combinación de ambas, y se ejecuta en una amplia variedad de instrumentos, que van desde la voz humana y las percusiones hasta los instrumentos de cuerda, viento y electrónicos.</p>
+                <p> La teoría musical es una disciplina que ha surgido para comprender y analizar los elementos y estructuras que conforman la música, como la notación musical, las escalas, los acordes y las formas musicales. Además, la música se ha vuelto accesible en la era moderna a través de grabaciones, conciertos en vivo, streaming en línea y más, lo que ha ampliado su impacto global y su influencia en la cultura popular. En la actualidad, la música sigue siendo una forma poderosa de expresión artística y una parte esencial de la vida cotidiana de las personas en todo el mundo.</p>
+                <div>
+                    <h2> Datos importantes:</h2>
+                    <ol>
+                        <li>Universalidad: La música es un lenguaje universal, entendido en todo el mundo.</li>
+                        <li>Efectos emocionales: La música influye en las emociones y el estado de ánimo de las personas.</li>
+                        <li>Evolución histórica: La música ha evolucionado a lo largo de la historia, adaptándose a las culturas y tecnologías cambiantes.</li>
+                    </ol>
+        </div>
+        
+        <h1 class="subtemas"> ¿Que tipos de musica o generos existen? </h1>
+        <article>
+            
+                <p class="textos">La <strong>paleta diversa de géneros musicales</strong> abarca desde la <em>serenidad</em> clásica de la música académica, pasando por el pulso enérgico del rock y el pop que anima multitudes, hasta las rimas y ritmos del hip-hop que cuentan historias urbanas. Los latidos apasionados del flamenco encienden pasiones, mientras que la electrónica nos sumerge en paisajes sonoros futuristas. El blues expresa las penas del alma, el jazz improvisa como un diálogo musical, y el reggae lleva mensajes de paz. Los tambores de África resuenan en el ritmo contagioso del afrobeat, la música latina nos hace bailar con su vitalidad y el metal desata emociones intensas. Cada género es un mundo sonoro único, un viaje a través de culturas y emociones, reflejando la riqueza infinita de la creatividad humana. </p>
+            
+        </article>
+        <h2 id="Acerca de"> Ejemplos de generos musicales: </h2>
+
+        <table style="width: 25%;">
+            <tr>
+                <th>Artista</th>
+                <th>Cancion</th>
+                <th>Genero</th>
+            </tr>
+            <tr>
+                <td>Marshmello</td>
+                <td>Happier</td>
+                <td>Pop</td>
+            </tr>
+            <tr>
+                <td>J Balvin</td>
+                <td>Mi gente</td>
+                <td>Reguetón</td>
+            </tr>
+            <tr>
+                <td>Diomedes Díaz</td>
+                <td>El cóndor herido</td>
+                <td>Vallenato</td>
+            </tr>
+        </table>
+        
+        <h1 class="subtemas"> Historia de la musica </h1>
+        <article>
+            
+                <p class="parrafo">La historia de la música se despliega como un tapiz vibrante a lo largo de los siglos. Desde los rituales ancestrales que marcaban el ritmo de la vida hasta las composiciones sinfónicas que emocionan las salas de conciertos modernas, la música ha sido una compañera constante en la trayectoria de la humanidad. Los primeros sonidos musicales surgieron en forma de voces y percusiones simples, utilizados para comunicarse, celebrar victorias y conectarse con lo divino. Con el tiempo, las culturas antiguas desarrollaron instrumentos como flautas, tambores y arpas, lo que permitió una expresión más rica y compleja. Las civilizaciones clásicas, como la griega y la romana, elevaron la música a un arte refinado, explorando conceptos de armonía y melodía, sentando las bases para la teoría musical occidental. </p>
+            
+        </article>
+        <article>
+            
+                <p class="parrafo">La <em>Edad Media</em> trajo consigo la música sacra y litúrgica de las iglesias, mientras que el Renacimiento fue testigo de una explosión creativa en la composición polifónica y la música vocal. El Barroco introdujo la ópera y el nacimiento de las primeras formas instrumentales complejas. El Clasicismo llevó la música a nuevos niveles de estructura y forma, personificada en las sinfonías y sonatas de Mozart, Beethoven y Haydn. El Romanticismo liberó las emociones musicales, con composiciones apasionadas y expresivas de compositores como Chopin, Wagner y Tchaikovsky. El siglo XX trajo consigo una revolución en la música, desde el jazz y el blues que narraban las historias de la comunidad afroamericana, hasta la influencia global de géneros como el rock, el pop, el hip-hop y la electrónica. En la actualidad, la música se ha diversificado en una amplia gama de géneros y estilos, fusionando tradiciones pasadas con tecnologías contemporáneas, manteniendo su papel fundamental como un espejo de la cultura y la emoción humanas.
+                </p>
+            
+        </article>
+        
+        <h1 class="subtemas"> ¿Que emociones puede transmitir la musica en nosotros? </h1>
+        <article>
+            
+                <p class="textos">La música, con su capacidad innata para evocar emociones, puede tejer un tapiz de sentimientos complejos en el lienzo de nuestra experiencia. Desde las <strong><em>notas melancolicas</em></strong> de un violín que nos sumergen en la tristeza más profunda, hasta los ritmos enérgicos de una canción pop que encienden la alegría y la vitalidad en nuestro ser, la música es un catalizador emocional poderoso. Puede acariciar nuestras fibras más sensibles, generando nostalgia, añoranza y anhelo con cada acorde; puede elevarnos a las alturas del éxtasis con sus armonías exultantes; puede provocar introspección y contemplación con sus tonos introspectivos; y puede incluso calmar las <strong>tormentas interiores</strong> a través de sus melodías serenas. La música nos brinda un medio para explorar y expresar un abanico completo de emociones, trascendiendo las palabras para llegar directamente a la esencia de lo que significa ser humano. Ya sea como un confidente en momentos de soledad, un compañero de celebración en los momentos de felicidad o un bálsamo en tiempos de tristeza, la música se convierte en un espejo y un refugio para nuestro mundo emocional.</p>
+            
+        </article>
+        <h3>-----------------------------------------</h3>
+    </section>
+<aside>
+    <h3 id="Contacto"> Carlos Andres Morales Patiño </h3>
+    <h3 id="Contacto"> Contacto: </h3>
+    <div class="contacto-box">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <p>Este artículo fue creado por <a href="https://www.programiz.com/html/online-compiler/" target="_blank">Carlos Morales.</a> Un apasionado por la música y la programación. Puedes contactarlo por el siguiente correo <a href="mailto:Desfor.Estudio@gmail.com">Desfor.Estudio@gmail.com</a></p>
+</aside>
+   
+     <img src="Imagenes/Mi imagen.jpg.jpeg" class="img" alt="">
+        
+    <footer> Colegio Skolmi - Todos los derechos son reservados. </footer>
+    <button>Siguiente</button>
+</body>
+    <script src="Libs/bootstrap/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>"></script>
+</html>
